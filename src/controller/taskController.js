@@ -7,8 +7,14 @@ export class TaskController
     
     create(req, res)
     {
-        taskRepository.create(req.body);
-        return res.writeHead(201).end();
+        const {title, description} = req.body;
+
+        if(title && description){
+            taskRepository.create({title, description});
+            return res.writeHead(201).end();
+        }
+        return res.writeHead(422).end('Title and description is required!');
+            
     }
 
     getAll(req, res)

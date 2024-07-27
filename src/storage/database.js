@@ -52,8 +52,12 @@ export class Database{
         if(rowIndex > -1){
             let row       = this.#database[table][rowIndex];
 
-            row.title                       = data.title;
-            row.description                 = data.description;
+            if(data.title)
+                row.title = data.title;
+
+            if(data.description)
+                row.description = data.description;
+            
             row.updated_at                  = now();
             this.#database[table][rowIndex] = row;
             
