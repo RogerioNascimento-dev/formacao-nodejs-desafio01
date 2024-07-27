@@ -15,14 +15,14 @@
  
 ## How to run? 
 - Clone this repository
-``git clone https://github.com/RogerioNascimento-dev/formacao-nodejs-desafio01.git``
- - Install dependences
- ``cd formacao-nodejs-desafio01``
-``npm install``
+```git clone https://github.com/RogerioNascimento-dev/formacao-nodejs-desafio01.git```
+- Install dependences
+```cd formacao-nodejs-desafio01```
+```npm install```
 - Run API
-``npm run dev``
+```npm run dev```
 - Run script to create tasks from CSV
-``npm run batchTask``
+```npm run batchTask```
 
 ## Authors
 - [@Rogério Nascimento](https://www.github.com/RogerioNascimento-dev)
