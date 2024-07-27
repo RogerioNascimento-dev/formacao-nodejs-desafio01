@@ -21,7 +21,7 @@
 ``npm install``
 - Run API
 ``npm run dev``
--Run script to create tasks from CSV
+- Run script to create tasks from CSV
 ``npm run batchTask``
 
 ## Authors
