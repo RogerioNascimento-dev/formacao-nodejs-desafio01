@@ -1,13 +1,17 @@
 {
   "name": "formacao-nodejs-desafio01",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "Desafio referente ao módulo: Fundamentos do Node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "node --watch src/server.js",
+    "batchTask": "node src/batch/batchTask.js"
   },
   "keywords": [],
   "author": "Rogério Nascimento",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
 }

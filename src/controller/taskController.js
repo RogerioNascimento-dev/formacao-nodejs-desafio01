@@ -46,7 +46,7 @@ export class TaskController
         if(result)
             return res.writeHead(204).end();
 
-        return res.writeHead(404).end('Resource not found!');
+        return res.writeHead(404).end('Task not found!');
     }
     
     complete(req, res)
@@ -56,7 +56,7 @@ export class TaskController
         if(result)
             return res.writeHead(204).end();
 
-        return res.writeHead(404).end('Resource not found');
+        return res.writeHead(404).end('Task not found');
     }
     
 }
